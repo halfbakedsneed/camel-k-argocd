@@ -1,3 +1,3 @@
 from("timer:tick")
-    .process { e -> e.getIn().body = "Hello Camel K Dude!" }
+    .process { e -> e.getIn().body = "Hello Camel K Dudez!" }
     .to("log:info")
